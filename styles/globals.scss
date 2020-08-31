@@ -1,0 +1,42 @@
+@import './fonts';
+@import './colors';
+@import './normalize';
+@import '~modularscale-sass/stylesheets/modularscale';
+
+html,
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  font-family: CircularStd, sans-serif;
+}
+
+#__next {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  font-size: ms(4);
+}
+
+h2 {
+  font-size: ms(3);
+}
+
+h3 {
+  font-size: ms(2);
+}
+
+h4 {
+  font-size: ms(1);
+}
+
+h5 {
+  font-size: ms(0);
+}
+
+h6 {
+  font-size: ms(-1);
+}
